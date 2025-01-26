@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$(".newsletter-signup").ajaxChimp({
 		callback: mailchimpResponse,
-		url: "" // Replace your mailchimp post url inside double quote "".  
+		url: "" https://oadeniyi.com.ng/ "".  
 	});
     $( window ).resize(function() {
 	location.reload();
