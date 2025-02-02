@@ -1,133 +1,457 @@
 <!DOCTYPE html>
-<html>
-  <head>    
-    <meta charset="UTF-8">
-    <title>Cloud Territory</title>
-    <meta name="description" content="Cloud territory website">
-    <meta name="author" content="oadeniyi">
-    <meta name="authorUrl" content="https://oadeniyi.com.ng">
-    
-    <!-- Mobile Specific Meta -->   
+<html lang="en">
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <link rel="stylesheet" href="assets/css/timerStyles.css">
-
-    <!-- Font Awesome -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!--Fav and touch icons-->
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114.png">
- 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <meta name="description" content="">
+    <meta name="author" content="oadeniyi">
+    <title>Cloud Territory</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
- <body>
- <div class="bg">
-	 <div class="bg-color">
-		  <div class="container content">
-	 
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/logo.png"> 
+</head> 
+
+<body id="home">
+
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li> 
+						<li class="scroll"><a href="#features">Features</a></li>
+                        <li class="scroll"><a href="#services">Services</a></li>
+                        <li class="scroll"><a href="#about">About</a></li> 
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="hero-banner">
+             <div class="banner-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                 
+                                    <h2><b>Cloud</b> Territory</h2>
+                                    <p>Empowering businesses to seamlessly migrate to the </br>cloud and guiding individuals in transitioning <br/>into rewarding tech careers.</p>
+                                    <a class="btn btn-primary btn-lg" href="#">Start Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section><!--/#main-slider-->
+     <section id="features">
+	 <div class="container">
+	   <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Our Features</h2>
+                <p class="wow fadeInDown">We provide innovative, scalable, and cost-effective cloud-based solutions designed<br> to empower businesses, enhance efficiency, and drive growth <br>in the competitive cloud computing landscape.</p>
+            </div>
+	 <div class="row FeatLayout">
+<div class="col-md-5 Featimg"> <img src="images/features_img.png" alt="feature" class="img-responsive center-block"></div>
+<div class="col-md-7">
+<h2>Migrate to the Cloud</h2>
+<p>cloud migration can streamline operations, reduce costs, and drive business growth.</p>
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Cloud Migration Strategy and Consulting</li>
+<li><i class="fa fa-angle-double-right"></i>Cloud Infrastructure Design and Implementation</li>
+<li><i class="fa fa-angle-double-right"></i>Data Migration and Management</li>
+<li><i class="fa fa-angle-double-right"></i>Security and Compliance</li>
+<li><i class="fa fa-angle-double-right"></i>Performance Optimization</li>
+<li><i class="fa fa-angle-double-right"></i>Training and Support</li>
+</ul>
+</div>
+</div>
+	 </div>
+	 </section>
+     <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Transitioning into Tech Careers</h2>
+                <p class="wow fadeInDown">Transitioning into tech can lead to a fulfilling, dynamic, and financially rewarding career.</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-futbol-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Comprehensive Training Programs</h4>
+                                <p>Courses on cloud computing, DevOps, cybersecurity, and other in-demand tech skills.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-compass"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Career Guidance and Mentorship</h4>
+                                <p>Career coaching and mentorship. Networking opportunities with industry professionals.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Continuous Learning and Development</h4>
+                                <p>Access to ongoing learning resources and advanced courses. Workshops and webinars on emerging technologies.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Learning Options</h4>
+                                <p>Self-paced and instructor-led courses. Affordable pricing and financing options.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-paper-plane-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Certification and Credentialing</h4>
+                                <p>Preparation for industry-recognized certifications. Issuance of certificates and badges upon course completion.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bullseye"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Job Placement Services</h4>
+                                <p>Partnerships with tech companies for job placements. Internship and apprenticeship programs.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+  
+ <section id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">About Us</h2>
+                <p class="wow fadeInDown">We are cloud computing startup delivering innovative, scalable, and secure solutions to help businesses optimize operations <br> drive growth, and unlock their full potential in the digital era. </p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                  <img class="img-responsive" src="images/about.png" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Our Company</h3>
+                    <p>At Cloud Territory, we are revolutionizing the way businesses harness the power of the cloud. AS a forward-thinking cloud computing startup, we deliver innovative, scalable, and cost-effective solutions tailored to meet the unique needs of modern enterprises.</p>
+
+                    <p>Our cutting-edge platform empowers organizations to optimize operations, enhance agility, and drive growth in an increasingly competitive digital landscape.</p>
+
+					<p>With a focus on security, reliability, and seamless integration, we are committed to helping businesses unlock their full potential throught the transformative capabilities of cloud technology. Join us as we shape the future of cloud computing, one solution at a time </p>
+
+
+                    <a class="btn btn-primary" href="#">Learn More</a>
+
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-->
+
+   
+  <section id="portfolio" style="display:none;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Servers</h2>
+                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            </div>
+
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                    <li><a href="#" data-filter=".designing">Designing</a></li>
+                    <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                    <li><a href="#" data-filter=".development">Development</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+
+    <section class="testimonial-area" id="testimonial">
+			<div class="container">
+				<div class="section-header">
+                <h2 class="section-title wow fadeInDown">Testimonial</h2>
+                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            </div>
 				<div class="row">
-					<div class="blazer clearfix">
-						<div class="col-sm-12">
-						   <h1>Cloudterritory</h1>
-						   <h2>Cloud Territory Website Is Almost Ready..</h2>
-						   <h3>Time Left Until Launching</h33>        
-						</div>
-						 
-						<div id="right-block" class="col-sm-12 text-center">
+					<div class="col-md-4">
+						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
 							<div class="row">
-							   <div class="col-sm-offset-1 col-sm-10">
-									<div class="timing">
-										<div id="count-down" data-date="2025-02-01 00:00:00">
-											
-										</div>
-									</div>
-									<!-- /.timing -->
-							   </div>
+								<div class="col-xs-12">
+									<blockquote>Sontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+								</div>
 							</div>
 							<div class="row">
-							  <div class="col-sm-offset-2 col-sm-8">
-								<p class="alert-success"></p>
-								<p class="alert-warning"></p>
-								<form class="newsletter-signup" role="form">
-								  <div class="input-group">
-									<input type="email" class="form-control" id="email" placeholder="Enter your email id" required>
-									<span class="input-group-btn">
-									  <input type="submit" class="btn btn-default btn-sand" value="subscribe">
-									</span>
-								  </div><!-- /input-group -->
-								</form>
-							  </div>
-							</div>                    
-							<p class="followus"></p>
-							<ul class="social-icon">
-								<li><a href="https://linkedin.com/company/cloud-territory"><i class="fa fa-linkedin-square"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-								<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-								<li><a href="https://www.youtube.com/@azuretutor"><i class="fa fa-youtube-square"></i></a></li>
-							</ul> 
-                               	<div class="row">
-							<div class="col-sm-12 text-center copyRights"> Copyright 2025 | All Rights Reserved - Created by 
-								<a href="https://oadeniyi.com.ng">oadeniyi.com.ng</a>
+								<div class="col-xs-3">
+									<img src="images/pic1.jpg" alt="client">
+								</div>
+								<div class="col-xs-9 half-gutter">
+									<h5>John Bond</h5>
+									<h6>Lorem Ipsuis simply</h6>
+								</div>
 							</div>
 						</div>
-		
-									
+					</div>
+					<div class="col-md-4">
+						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+							<div class="row">
+								<div class="col-xs-12">
+									<blockquote>Tontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3">
+									<img src="images/pic2.jpg" alt="client">
+								</div>
+								<div class="col-xs-9 half-gutter">
+									<h5>John Bond</h5>
+									<h6>Lorem Ipsuis simply</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+							<div class="row">
+								<div class="col-xs-12">
+									<blockquote>Aontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3">
+									<img src="images/pic1.jpg" alt="client">
+								</div>
+								<div class="col-xs-9 half-gutter">
+									<h5>John Bond</h5>
+									<h6>Lorem Ipsuis simply</h6>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			
-			<!-- .container end here -->
-	 </div>
- </div>
-   
-    
+		</section>
+    <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Contact Us</h2>
+                <p class="wow fadeInDown">Our expert team delivers seamless integration, robust security, and cost-effective results tailored to your needs <br> - let's transform your business together! </p>
+    </section><!--/#contact-us-->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/timerStyles.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/jquery.placeholder.js"></script>
-    <script type="text/javascript">
-    	$(function() {
-				// Invoke the plugin
-				$('input, textarea').placeholder();
-			});
-    </script>
-    <script>
-      $("#count-down").TimeCircles(
-       {   
-           circle_bg_color: "#8a7f71",
-           use_background: true,
-           bg_width: 1.0,
-           fg_width: 0.02,
-           time: {
-                Days: { color: "#00A5ED" },
-                Hours: { color: "#00A5ED" },
-                Minutes: { color: "#00A5ED" },
-                Seconds: { color: "#00A5ED" }
-            }
-       }
-    );
 
-    </script>
-    
-  </body>
+    <section id="contact">
+        
+        <div class="container">
+            <div class="container contact-info">
+                <div class="row">
+				  <div class="col-sm-4 col-md-4">
+                        <div class="contact-form">
+                            <h3>Contact Info</h3>
+
+                            <address>
+                              <strong>Cloud Territory, Inc.</strong><br>
+                              Seaflow Estate Gbagada, Lagos<br>
+                              Nigeria 100242<br>
+                              <abbr title="Phone">P:</abbr> (234) 806-239-2085
+                            </address>
+					</div></div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="contact-form">
+                       
+                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+   </section><!--/#bottom-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2025 Cloud Territory by <a target="_blank" href="https://oadeniyi.com.ng/">oadeniyi.com</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
 </html>
